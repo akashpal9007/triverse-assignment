@@ -1,0 +1,31 @@
+.project-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.projects-l{
+}
+.projects-img{
+    width: 100%;
+    height: auto;
+}
+.projects-r{
+    width: 52vw;
+    margin-left: 2rem;
+    margin-right: 7%;
+}
+.projects-btn{
+    margin-top: 2rem;
+    background: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 0.7rem;
+}

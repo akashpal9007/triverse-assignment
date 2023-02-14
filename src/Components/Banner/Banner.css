@@ -1,0 +1,46 @@
+.banner{
+    margin-top: 2rem;
+    background-image: url('../../assets/banner.jpg');
+    display: flex;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 5rem;
+    justify-content: space-around;
+    height: 250px;
+    background-position: 3%; 
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+    
+}
+.banner::before{
+    filter: brightness(50%)
+
+}
+.banner-text{
+    color: white;
+    width: 10rem;
+}
+.callback{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+}
+.callback>div>input{
+    border: 1px solid grey;
+    padding: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+    border-radius: 1rem;
+}
+.btn-submit{
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+    border: 1px solid grey;
+    background: none;
+    color: grey;
+    margin-bottom: 2rem;
+}
