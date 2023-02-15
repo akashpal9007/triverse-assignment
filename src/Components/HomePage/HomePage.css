@@ -14,3 +14,18 @@
     width: 100%;
     height: auto;
 }
+.homepage-slog>div{
+    font-size: 1.5rem;
+}
+.home-slog-divlast{
+    top: 4rem;
+}
+@media only screen and (max-width: 600px) {
+    .homepage-slog>div{
+        font-size: 1rem;
+    }
+    .home-slog-divlast{
+        top: 2.3rem;
+    }
+    
+  }

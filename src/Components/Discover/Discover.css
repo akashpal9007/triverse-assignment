@@ -19,3 +19,17 @@
     width: 100%;
     height: auto;
 }
+@media only screen and (max-width: 600px) {
+    .discover-l{
+        font-style: 0.8rem;
+        margin-right: 1rem;
+        width: 10rem;
+    }
+    .discover-l>h3{
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .discover-l>div{
+        font-size: 0.6rem;
+    }
+}
