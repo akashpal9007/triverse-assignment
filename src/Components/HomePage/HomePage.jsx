@@ -16,13 +16,13 @@ const HomePage = () => {
         {/* <img className='homepage-img' src={homepage} alt="" /> */}
         <Carousel autoPlay infiniteLoop showThumbs={false}>
                 <div>
-                    <img src={homepage} />
+                    <img src={homepage} alt=''/>
                 </div>
                 <div>
-                    <img src={homepage} />
+                    <img src={homepage} alt=''/>
                 </div>
                 <div>
-                    <img src={homepage} />
+                    <img src={homepage} alt=''/>
                 </div>
             </Carousel>
       </div>
