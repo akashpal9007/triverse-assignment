@@ -8,7 +8,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 .morepage-r{
     width: 70%;
@@ -43,9 +42,15 @@
 @media only screen and (max-width: 600px) {
     .morepage-l{
         margin-left: 3rem;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
+        width: max-content;
+        padding-left: 0;
+        padding-right: 0;
     }
     .morepage-r-head{
         font-size: 1rem;
+    }
+    .morepage-r{
+        padding-right: 0;
     }
 }

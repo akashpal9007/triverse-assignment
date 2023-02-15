@@ -9,6 +9,7 @@
 }
 .home-img-div{
     width: 100vw;
+    z-index: -1;
 }
 .homepage-img{
     width: 100%;
